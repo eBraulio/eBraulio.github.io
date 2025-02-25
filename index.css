@@ -505,27 +505,32 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
-/* ----- Clients ----- */
+/* ----- frameworks ----- */
 /* --------------------------------------- */
 
-.client__logos {
+.frameworks__logos {
   display: flex;
   justify-content: space-between;
-  filter: invert(100%) grayscale(100%) opacity(0.8);
+  filter: opacity(0.8);
 }
 
-.client__logo {
+.frameworks__logo {
   height: 6.5rem;
   max-width: 18rem;
 }
 
+.frameworks__text {
+  color: #fff;
+  text-align: center;
+}
+
 @media (max-width: 1240px) {
-  .client__logos {
+  .frameworks__logos {
     overflow-x: scroll;
     padding: var(--gutter-normal);
   }
 
-  .client__logo:not(:last-of-type) {
+  .frameworks__logo:not(:last-of-type) {
     margin-right: var(--gutter-medium);
   }
 }
