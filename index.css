@@ -511,7 +511,7 @@ body:not(.user-is-tabbing) a:focus {
 .frameworks__logos {
   display: flex;
   justify-content: space-between;
-  filter: opacity(0.8);
+  filter: opacity(1);
 }
 
 .frameworks__logo {
