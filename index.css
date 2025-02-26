@@ -34,7 +34,7 @@
   --line-height-normal: 1.7;
   --line-height-small: 1.2;
 
-  --black: #0f1720;
+  --black: #090c24;
   --pink: #ff3258;
   --white: #f0e9f2;
   --white-1: #e5e5e6da;
@@ -477,8 +477,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__list {
   /* list-style-type: square; */
-  list-style-position: inside;
+  list-style-position: outside;
   margin-bottom: var(--gutter-normal);
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 .work__code {
