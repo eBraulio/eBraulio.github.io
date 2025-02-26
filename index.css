@@ -468,10 +468,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text-bold {
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .work__text {
-  flex: 0 0 30%;
+  flex: 0 0 40%;
 }
 
 .work__list {
@@ -500,6 +501,11 @@ body:not(.user-is-tabbing) a:focus {
     flex: 1;
     margin: 0 0 0 10rem;
   }
+}
+
+.work__image {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 @media (max-width: 900px) {
